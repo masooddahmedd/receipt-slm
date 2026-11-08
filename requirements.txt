@@ -1,0 +1,14 @@
+# data prep (any machine)
+pandas>=2.2
+pyarrow>=16
+pillow>=10
+numpy>=1.26
+rapidocr-onnxruntime>=1.2
+openai>=1.40
+pytest>=8
+# training and serving (Linux + NVIDIA GPU)
+torch>=2.4
+transformers>=4.46
+peft>=0.13
+bitsandbytes>=0.44
+vllm>=0.6
