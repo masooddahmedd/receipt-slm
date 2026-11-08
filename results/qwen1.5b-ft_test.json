@@ -1,0 +1,20 @@
+{
+  "name": "qwen1.5b-ft",
+  "model": "cord",
+  "split": "test",
+  "receipts": 100,
+  "fields": 300,
+  "accuracy": 0.8067,
+  "by_field": {
+    "line_items": 0.6162,
+    "subtotal": 0.9231,
+    "tax": 0.9024,
+    "total": 0.8842
+  },
+  "valid_json": "100/100",
+  "latency_p50_s": 0.78,
+  "latency_p90_s": 1.38,
+  "receipts_per_minute": 511.6,
+  "concurrency": 8,
+  "output_tokens_mean": 102
+}
